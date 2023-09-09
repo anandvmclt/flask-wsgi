@@ -11,5 +11,5 @@ def items():
     sample_items = [{"id": 1, "name": "item1"}, {"id": 2, "name": "item2"}]
     return jsonify(items=sample_items)
 
-if __name__ == "__main__":
-    app.run(debug=True)
+# if __name__ == "__main__":
+#     app.run(debug=True)
